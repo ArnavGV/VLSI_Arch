@@ -12,3 +12,6 @@ Focused on 32 bit general purpose combinatorial shifter with left/right arithmet
 
 ## Lab 4
 Design a Moore FSM controller to control the appliances for room comfort as per specifications, given inputs that are sensitive to temperature change. Then syntheize it for Xilinx FPGA (XC7Z020 CLG484-1) and characterize performance, complexity, delay and power.
+
+## Lab 5
+Simulate the CORDIC algorithm for 16 iterations and track convergence
