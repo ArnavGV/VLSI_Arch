@@ -15,3 +15,15 @@ Design a Moore FSM controller to control the appliances for room comfort as per 
 
 ## Lab 5
 Simulate the CORDIC algorithm for 16 iterations and track convergence
+
+## MINi Project (Lab 6)
+Simulate a CISC processor - MIN - as modelled in Nick Tredennick's Microprocesor Logic Design. And run a simple program to load values from memory, operate on them and store them back.
+
+## Lab 7
+Add a custom instruction to sum all elements in an array. Flowcharts created an control words added to MIN Processor created earlier
+
+## Lab 8
+Simulate Execute stage of a 5 stage RISC V pipelined processor. ISA: RV32I
+
+## Lab 9
+Simulate MEM stage of a 5 stage RISC V pipelined processor. ISA: RV32I
