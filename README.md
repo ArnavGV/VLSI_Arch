@@ -20,7 +20,7 @@ Simulate the CORDIC algorithm for 16 iterations and track convergence
 Simulate a CISC processor - MIN - as modelled in Nick Tredennick's Microprocesor Logic Design. And run a simple program to load values from memory, operate on them and store them back.
 
 ## Lab 7
-Add a custom instruction to sum all elements in an array. Flowcharts created an control words added to MIN Processor created earlier
+Add a custom instruction to sum all elements in an array. Flowcharts created and control words added to MIN Processor
 
 ## Lab 8
 Simulate Execute stage of a 5 stage RISC V pipelined processor. ISA: RV32I
