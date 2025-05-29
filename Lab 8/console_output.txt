@@ -1,0 +1,33 @@
+# run 1000ns
+==== RV32I_EX1 Execute Stage Testbench ====
+ADD: rs1=10, rs2=20 => res_d_op=30
+SUB: rs1=50, rs2=20 => res_d_op=30
+SLT: rs1=4294967291, rs2=2 => res_d_op=0
+SLTU: rs1=2, rs2=5 => res_d_op=0
+AND: rs1=0xa5a5a5a5, rs2=0xff00ff00 => res_d_op=0xa500a500
+OR: rs1=0xa5a5a5a5, rs2=0xff00ff00 => res_d_op=0xffa5ffa5
+XOR: rs1=0xa5a5a5a5, rs2=0xff00ff00 => res_d_op=0x5aa55aa5
+SLL: rs1=0x00000001, shamt=8 => res_d_op=0x00000100
+SRL: rs1=0x80000000, shamt=4 => res_d_op=0x08000000
+SRA: rs1=0xf0000000, shamt=4 => res_d_op=0xff000000
+BEQ: rs1=10, rs2=10 => res_bra=1
+BNE: rs1=10, rs2=20 => res_bra=1
+Branch Target (rs1): rs1=100, off_v=12 => res_brt_dma=112
+Branch Target (pc): pc_v=400, off_v=16 => res_brt_dma=416
+
+Testing ADDI (Add Immediate)
+ADDI: rs1=10, imm=7 => res_d_op=17
+
+Testing ORI (Or Immediate)
+ORI: rs1=0xa5a5a5a5, imm=0x0000ffff => res_d_op=0xa5a5ffff
+
+Testing ANDI (And Immediate)
+ANDI: rs1=0xa5a5a5a5, imm=0x0000ffff => res_d_op=0x0000a5a5
+
+Testing SLLI (Shift Left Logical Immediate)
+SLLI: rs1=0x00000001, shamt=8 => res_d_op=0x00000100
+==== End of Testbench ====
+$finish called at time : 18 ns : File "D:/Vivado Proj/vlsi_lab8/vlsi_lab8.srcs/sim_1/new/tb_rv32i_exec.v" Line 125
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_rv32i_ex1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1632.852 ; gain = 30.277

@@ -1,0 +1,18 @@
+LB (aligned): ld_32 = ffffffdd
+LB (misaligned): ld_32 = ffffffcc
+LBU (aligned): ld_32 = 000000dd
+LH (aligned): ld_32 = ffffccdd
+LH (misaligned): ld_32 = ffffbbcc
+LHU (aligned): ld_32 = 0000ccdd
+LW (aligned): ld_32 = aabbccdd
+LW (misaligned): ld_32 = 44aabbcc
+SB (aligned): mem_d[1] = 112233ee
+SB (misaligned): mem_d[1] = 1122ffee
+SH (aligned): mem_d[2] = 5566dead
+SH (misaligned): mem_d[2] = 55beefad, mem_d[3] = 99aabbcc
+SW (aligned): mem_d[3] = cafebabe
+SW (misaligned): mem_d[3] = adc0debe, mem_d[4] = 000000de
+$finish called at time : 700 ns : File "D:/Vivado Proj/vlsi_lab9/vlsi_lab9.srcs/sim_1/new/tb_memrv32i.v" Line 116
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_rv32i_mem_stage_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1435.566 ; gain = 29.598
